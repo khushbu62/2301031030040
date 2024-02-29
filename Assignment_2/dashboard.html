@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./dashboard.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="dashboard">
+      <section class="frame-parent2">
+        <div class="f-r-a-m-e">
+          <header class="f-r-a-m-e-parent">
+            <div class="f-r-a-m-e1">
+              <div class="f-r-a-m-e2">
+                <div class="trivia">
+                  Hey! Did you know that Starbucks pays more for its employees’
+                  health insurance than it does for coffee?
+                </div>
+                <div class="image-container-parent">
+                  <div class="image-container">
+                    <div class="hamburger-wrapper">
+                      <div class="hamburger">
+                        <div class="line-button"></div>
+                        <div class="line-button1"></div>
+                        <div class="line-button2"></div>
+                      </div>
+                    </div>
+                    <img
+                      class="image-2-icon"
+                      loading="lazy"
+                      alt=""
+                      src="./public/image-2@2x.png"
+                    />
+                  </div>
+                  <div class="instagram-wrapper">
+                    <div class="instagram">
+                      <span>Check out our </span>
+                      <span class="instagram1">Instagram</span>
+                      <span> page for more!</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="profile-parent" id="groupContainer">
+              <img
+                class="profile-icon"
+                alt=""
+                src="./public/profile.svg"
+                id="profileIcon"
+              />
+
+              <img
+                class="image-9-icon"
+                loading="lazy"
+                alt=""
+                src="./public/image-9@2x.png"
+              />
+            </div>
+          </header>
+          <div class="rectangle-parent" id="groupContainer">
+            <div class="frame-child"></div>
+            <div class="frame-item"></div>
+            <div class="gold-member-text">
+              <div class="current-points">Current Points:</div>
+              <h1 class="xxx-pts">XXX PTS</h1>
+            </div>
+            <div class="frame-wrapper">
+              <div class="trivia-text-parent">
+                <img
+                  class="trivia-text-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/vector-21.svg"
+                />
+
+                <h3 class="gold-member">Gold Member</h3>
+              </div>
+            </div>
+          </div>
+          <h3 class="trivia1">What do you want to protect today?</h3>
+        </div>
+      </section>
+      <footer class="empty-frame">
+        <div class="vector-parent">
+          <img class="frame-inner" alt="" src="./public/rectangle-2.svg" />
+
+          <h1 class="ads">ADS</h1>
+        </div>
+        <div class="rectangle-group">
+          <div class="rectangle-div"></div>
+          <img class="checkin-frame-icon" loading="lazy" alt="" />
+
+          <div class="check-in-to-get-rewards-wrapper">
+            <b class="check-in-to">Check in to get Rewards!</b>
+          </div>
+          <div class="frame-parent3">
+            <div class="ellipse-parent">
+              <div class="ellipse-div"></div>
+              <b class="b">1</b>
+            </div>
+            <div class="ellipse-group">
+              <div class="frame-child1"></div>
+              <b class="b1">2</b>
+            </div>
+            <div class="ellipse-container">
+              <div class="frame-child2"></div>
+              <div class="line-parent">
+                <img class="line-icon" loading="lazy" alt="" />
+
+                <b class="b2">3</b>
+              </div>
+            </div>
+            <div class="ellipse-parent1">
+              <div class="frame-child3"></div>
+              <b class="b3">4</b>
+            </div>
+            <div class="ellipse-parent2">
+              <div class="frame-child4"></div>
+              <b class="b4">5</b>
+            </div>
+            <div class="ellipse-parent3">
+              <div class="frame-child5"></div>
+              <b class="b5">6</b>
+            </div>
+            <div class="ellipse-parent4">
+              <div class="frame-child6"></div>
+              <b class="b6">7</b>
+            </div>
+            <div class="ellipse-parent5">
+              <div class="frame-child7"></div>
+              <b class="b7">8</b>
+            </div>
+          </div>
+          <div class="instagram-text">
+            <div class="group-container">
+              <div class="instagram2">Get Reward</div>
+            </div>
+          </div>
+        </div>
+        <div class="ads-group">
+          <div class="rectangle-shape-parent">
+            <div class="rectangle-shape"></div>
+            <div class="first-ellipse"></div>
+            <div class="second-ellipse"></div>
+            <div class="chat-tuney">Chat Tuney!</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      var profileIcon = document.getElementById("profileIcon");
+      if (profileIcon) {
+        profileIcon.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+      
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+      
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./my-points.html";
+        });
+      }
+      </script>
+  </body>
+</html>

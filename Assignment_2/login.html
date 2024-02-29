@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login1">
+      <section class="frame-login">
+        <form class="frame-email-password-parent">
+          <div class="frame-email-password">
+            <h1 class="login2">Login</h1>
+          </div>
+          <div class="email-password-frame">
+            <input class="email-frame" placeholder="Email" type="text" />
+
+            <input class="email-frame1" placeholder="Password" type="text" />
+          </div>
+          <div class="login-confirmation-wrapper">
+            <button class="login-confirmation" id="loginConfirmation">
+              <b class="login3">Login</b>
+            </button>
+          </div>
+        </form>
+      </section>
+      <section class="image-icon">
+        <img
+          class="image-12-icon"
+          loading="lazy"
+          alt=""
+          src="./public/image-11@2x.png"
+        />
+      </section>
+    </div>
+
+    <script>
+      var loginConfirmation = document.getElementById("loginConfirmation");
+      if (loginConfirmation) {
+        loginConfirmation.addEventListener("click", function (e) {
+          window.location.href = "./dashboard.html";
+        });
+      }
+      </script>
+  </body>
+</html>

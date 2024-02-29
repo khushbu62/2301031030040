@@ -1,0 +1,236 @@
+.image-3-icon1 {
+  height: 31px;
+  width: 43px;
+  position: relative;
+  object-fit: cover;
+}
+.x {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+}
+.image-rectangle {
+  width: 187px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.macbook-pro {
+  align-self: stretch;
+  width: 78px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-red);
+}
+.insurance-type {
+  position: relative;
+  font-weight: 600;
+}
+.frame-f1 {
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 20px;
+}
+.frame-c,
+.frame-e,
+.frame-f1 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-e {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-3xl) 0 0;
+  font-size: 25px;
+}
+.frame-c {
+  height: 175px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  gap: 31px 0;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--greyscale-900);
+  font-family: var(--font-poppins);
+}
+.lorem-ipsum-dolor {
+  width: 298px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.lorem-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+}
+.buy-text-child {
+  height: 43px;
+  width: 115px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-red);
+  display: none;
+}
+.buy {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.buy-text {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xs) var(--padding-21xl) var(--padding-7xs) 35px;
+  background-color: var(--color-red);
+  border-radius: var(--br-xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frame-h {
+  flex-direction: row;
+  padding: 0 var(--padding-10xs);
+}
+.frame-a,
+.frame-b1,
+.frame-h {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-b1 {
+  flex: 1;
+  flex-direction: column;
+  gap: 13px 0;
+}
+.frame-a {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--greyscale-900);
+  font-family: var(--font-poppins);
+}
+.frame-j-child {
+  width: 316px;
+  height: 292px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.customer-testimony {
+  position: relative;
+  z-index: 1;
+}
+.blank-line,
+.customer-1,
+.very-good-i {
+  margin: 0;
+}
+.very-good-i-container {
+  width: 227px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.stars-component {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.star-collection-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: 1;
+}
+.individual-review {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+}
+.customer-review-icon,
+.customer-review-icon1,
+.customer-review-icon2,
+.customer-review-icon3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+  z-index: 1;
+}
+.frame-container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 6px;
+}
+.frame-j,
+.frame-k {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frame-k {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px 0;
+  font-size: var(--body-large-semibold-size);
+}
+.frame-j {
+  flex: 1;
+  background-color: var(--color-gainsboro);
+  padding: var(--padding-6xl) 59px var(--padding-5xl) var(--padding-9xl);
+  gap: 33px 0;
+}
+.frame-i,
+.frame-j,
+.insurance-details {
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-i {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--greyscale-900);
+  font-family: var(--font-poppins);
+}
+.insurance-details {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-lgi) var(--padding-lgi) 43px var(--padding-3xl);
+  box-sizing: border-box;
+  gap: 22px 0;
+}

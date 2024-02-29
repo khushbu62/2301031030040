@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./games.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="games">
+      <header class="subframe-a">
+        <div class="hamburger3">
+          <div class="group-a"></div>
+          <div class="group-a1"></div>
+          <div class="group-a2"></div>
+        </div>
+        <div class="frame-b">
+          <img
+            class="image-2-icon1"
+            loading="lazy"
+            alt=""
+            src="./public/image-2@2x.png"
+          />
+        </div>
+        <div class="group-div" id="groupContainer">
+          <img
+            class="profile-icon3"
+            alt=""
+            src="./public/profile.svg"
+            id="profileIcon"
+          />
+
+          <img
+            class="image-9-icon2"
+            loading="lazy"
+            alt=""
+            src="./public/image-9@2x.png"
+          />
+        </div>
+      </header>
+      <main class="frame-f">
+        <div class="frame-f-child"></div>
+        <div class="subframe-b">
+          <h2 class="daily-games">Daily Games</h2>
+        </div>
+        <section class="rectangle-a">
+          <div class="ellipse-a">
+            <img
+              class="image-5-icon"
+              loading="lazy"
+              alt=""
+              src="./public/image-5@2x.png"
+            />
+
+            <div class="text-a">
+              <div class="frame-g">
+                <div class="crosswords">Crosswords</div>
+                <div class="quiz">Quiz</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="group-d-parent">
+          <div class="group-d">
+            <img
+              class="image-7-icon"
+              loading="lazy"
+              alt=""
+              src="./public/image-7@2x.png"
+            />
+
+            <div class="game-frame">
+              <img
+                class="image-8-icon"
+                loading="lazy"
+                alt=""
+                src="./public/image-8@2x.png"
+              />
+            </div>
+          </div>
+          <div class="group-frame">
+            <div class="claw-games-parent">
+              <div class="claw-games">Claw Games</div>
+              <div class="gardening">Gardening</div>
+            </div>
+          </div>
+        </section>
+        <section class="frame-f-inner">
+          <div class="frame-parent7">
+            <div class="frame-wrapper1">
+              <button class="frame-button">
+                <div class="frame-child9"></div>
+                <div class="more-games">More Games</div>
+              </button>
+            </div>
+            <div class="rectangle-parent1">
+              <div class="instance-child1"></div>
+              <div class="instance-child2"></div>
+              <div class="instance-child3"></div>
+              <div class="chat-tuney4">Chat Tuney!</div>
+            </div>
+          </div>
+        </section>
+        <img
+          class="image-6-icon"
+          loading="lazy"
+          alt=""
+          src="./public/image-6@2x.png"
+        />
+      </main>
+    </div>
+
+    <script>
+      var profileIcon = document.getElementById("profileIcon");
+      if (profileIcon) {
+        profileIcon.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+      
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+      </script>
+  </body>
+</html>
